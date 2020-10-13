@@ -6,8 +6,8 @@ class Login extends Component {
   render() {
     return (
       <div className="login-page">
-        <Header></Header>
-        <h2>This is login page</h2>
+        <Header name="header"></Header>
+        <h1>This is login page</h1>
         <button onClick={() => { this.goHome() }}>click me</button>
       </div>
     )

@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import Login from './pages/login'
 import Home from './pages/home'
 import { HashRouter, Route, Switch, Redirect } from 'react-router-dom'
+import { Button } from 'antd';
+import './App.css';
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
           <Redirect to={"/home"} />
         </Switch>
       </HashRouter>
+      <div className="App">
+        <Button type="primary">Button</Button>
+      </div>
     </Fragment>
   );
 }

@@ -6,7 +6,6 @@ class Header extends Component {
     return (
       <div className="header-page">
         <h2>
-          this is header
           <span>{this.props.name}</span>
         </h2>
       </div>

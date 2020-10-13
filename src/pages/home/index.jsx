@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home-page">
-        <Header name='哈哈啊哈'></Header>
+        <Header name='Hello'></Header>
         <h1>Home page</h1>
         <button onClick={() => { this.goLogin() }}>goto login</button>
       </div>
